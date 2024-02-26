@@ -9,8 +9,8 @@ env:
   ###############################################
   ### Replace <username> with GitHub username ###
   ###############################################
-  DOCKER_IMAGE_NAME: safwanmasarikk-xom-azure-ttt
-  AZURE_WEBAPP_NAME: safwanmasarikk-xom-ttt-app
+  DOCKER_IMAGE_NAME: safwanmasarik-xom-azure-ttt
+  AZURE_WEBAPP_NAME: safwanmasarik-xom-ttt-app
   ###############################################
 
 jobs:
