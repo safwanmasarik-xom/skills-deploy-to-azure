@@ -11,7 +11,7 @@ jobs:
       - name: Comment on new issue
         uses: actions/github-script@0.8.0
         with:
-          github-token: $secrets.GITHUB_TOKEN
+          #github-token: $secrets.GITHUB_TOKEN
           script: |
              //const fs = require('fs')
              const issueBody = "Safwan test issue comment with script"
@@ -27,7 +27,7 @@ jobs:
         if: contains(github.event.issue.labels.*.name, 'bug')
         uses: actions/github-script@0.8.0
         with:
-          github-token: $secrets.GITHUB_TOKEN
+          #github-token: $secrets.GITHUB_TOKEN
           script: |
             github.projects.createCard({
             column_id: {{columnID}},
